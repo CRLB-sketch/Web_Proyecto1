@@ -1,0 +1,382 @@
+:root {
+    --white: #fff;
+    --button-red: #e60012;
+    --button-red-hover: #ac000d;
+    --text-gray: #484848;
+    --button-secondary-border: 1px solic #e60012;
+    --button-border-radius: 0.3125em;
+    --nin-theme-song__global_font-color: #484848;
+    --for-bar-gray: #ffffff;
+    --footer: #454444;
+}
+
+html {
+    font-size: 100%;
+    font-family: museo-sans,sans-serif;
+    font-weight: 300;
+    line-height: 1.38;
+    color: var(--nin-theme-song__global_font-color); 
+}
+
+html {
+    --nin-base__global_font-size_desktop: 100%;
+    --nin-base__global_font-size_mobile: 100%;
+    --nin-base__global_line-height_desktop: 1.38;
+    --nin-base__global_line-height_mobile: 1.38;
+    --nin-base__global_background-color: #ffffff;
+    --nin-base__global_background-color_vanish-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 2%, rgba(255, 255, 255, 1) 100%);
+    --nin-base__global_font-family: museo-sans, sans-serif;
+    --nin-base__global_text-color: #484848;
+    --nin-base__global_modal-overlay_background: rgba(0, 0, 0, 0.5);
+    --nin-base__global_focus-indicator: #000000;
+    --nin-base__section-header_pinned-background-color: rgba(255,255,255,0.9);
+    --nin-base__section-header_active-link: #e60012;
+    --nin-base__h1_font-family: museo-sans, sans-serif;
+    --nin-base__h1_font-weight: 700;
+    --nin-base__h1_font-size_desktop: (38 / 16) * 1rem;
+    --nin-base__h1_font-size_mobile: (28 / 16) * 1rem;
+    --nin-base__h1_line-height_desktop: 1.32;
+    --nin-base__h1_line-height_mobile: 1.36;
+    --nin-base__h1_text-align: left;
+    --nin-base__h1_margin: initial;
+    --nin-base__h1_color: #484848;
+    --nin-base__h2_font-family: museo-sans, sans-serif;
+    --nin-base__h2_font-weight: 700;
+    --nin-base__h2_font-size_desktop: (28 / 16) * 1rem;
+    --nin-base__h2_font-size_mobile: (24 / 16) * 1rem;
+    --nin-base__h2_line-height_desktop: 1.36;
+    --nin-base__h2_line-height_mobile: 1.25;
+    --nin-base__h2_text-align: left;
+    --nin-base__h2_margin: initial;
+    --nin-base__h2_color: #484848;
+    --nin-base__h3_font-family: museo-sans, sans-serif;
+    --nin-base__h3_font-weight: 700;
+    --nin-base__h3_font-size_desktop: (21 / 16) * 1rem;
+    --nin-base__h3_font-size_mobile: (18 / 16) * 1rem;
+    --nin-base__h3_line-height_desktop: 1.33;
+    --nin-base__h3_line-height_mobile: 1.33;
+    --nin-base__h3_text-align: left;
+    --nin-base__h3_margin: initial;
+    --nin-base__h3_color: #484848;
+    --nin-base__h4_font-family: museo-sans, sans-serif;
+    --nin-base__h4_font-weight: 700;
+    --nin-base__h4_font-size_desktop: 1rem;
+    --nin-base__h4_font-size_mobile: 1rem;
+    --nin-base__h4_line-height_desktop: 1.38;
+    --nin-base__h4_line-height_mobile: 1.38;
+    --nin-base__h4_text-align: left;
+    --nin-base__h4_margin: initial;
+    --nin-base__h4_color: #484848;
+    --nin-base__p_font-family: museo-sans, sans-serif;
+    --nin-base__p_font-weight: 300;
+    --nin-base__p_font-size_desktop: 1rem;
+    --nin-base__p_font-size_mobile: 1rem;
+    --nin-base__p_line-height_desktop: 1.38;
+    --nin-base__p_line-height_mobile: 1.38;
+    --nin-base__p_text-align: left;
+    --nin-base__p_margin: initial;
+    --nin-base__p_color: #484848;
+    --nin-base__title_font-family: museo-sans, sans-serif;
+    --nin-base__title_font-weight: 700;
+    --nin-base__title_font-size_desktop: 1rem;
+    --nin-base__title_font-size_mobile: 1rem;
+    --nin-base__title_line-height_desktop: 1.38;
+    --nin-base__title_line-height_mobile: 1.38;
+    --nin-base__title_text-align: left;
+    --nin-base__title_margin: initial;
+    --nin-base__title_color: #484848;
+    --nin-base__title_font-family: museo-sans, sans-serif;
+    --nin-base__title_font-weight: 700;
+    --nin-base__title_font-size_desktop: 1rem;
+    --nin-base__title_font-size_mobile: 1rem;
+    --nin-base__title_line-height_desktop: 1.38;
+    --nin-base__title_line-height_mobile: 1.38;
+    --nin-base__title_text-align: left;
+    --nin-base__title_margin: initial;
+    --nin-base__title_color: #484848;
+    --nin-base__caption_font-family: museo-sans, sans-serif;
+    --nin-base__caption_font-weight: 300;
+    --nin-base__caption_font-size_desktop: (14 / 16) * 1rem;
+    --nin-base__caption_font-size_mobile: (14 / 16) * 1rem;
+    --nin-base__caption_line-height_desktop: 1.29;
+    --nin-base__caption_line-height_mobile: 1.33;
+    --nin-base__caption_text-align: left;
+    --nin-base__caption_margin: initial;
+    --nin-base__caption_color: #727272;
+    --nin-base__legal_font-family: museo-sans, sans-serif;
+    --nin-base__legal_font-weight: 300;
+    --nin-base__legal_font-size_desktop: (12 / 16) * 1rem;
+    --nin-base__legal_font-size_mobile: (12 / 16) * 1rem;
+    --nin-base__legal_line-height_desktop: 1.38;
+    --nin-base__legal_line-height_mobile: 1.38;
+    --nin-base__legal_text-align: left;
+    --nin-base__legal_margin: initial;
+    --nin-base__legal_color: #484848;
+    --nin-base__content-box_margin: 1rem;
+    --nin-base__content-box_padding: 1rem;
+    --nin-base__content-box_corners: 5px;
+    --nin-base__content-box_background-color: #efefef;
+    --nin-base__content-box_background-image: none;
+    --nin-base__content-box_border: none;
+    --nin-base__asset-frame_margin: 0;
+    --nin-base__asset-frame_padding: 0;
+    --nin-base__asset-frame_corners: 5px;
+    --nin-base__asset-frame_background-color: transparent;
+    --nin-base__asset-frame_background-image: none;
+    --nin-base__asset-frame_border: none;
+    --nin-base__ui-element_color: #484848;
+    --nin-base__ui-element_color_hover: #000000;
+    --nin-base__module_margin: 0;
+    --nin-base__module_padding: 0;
+    --nin-base__module_corners: 0;
+    --nin-base__module_background-color: transparent;
+    --nin-base__module_background-image_desktop: none;
+    --nin-base__module_background-image_mobile: none;
+    --nin-base__module_background-size_desktop: initial;
+    --nin-base__module_background-size_mobile: initial;
+    --nin-base__module_background-repeat_desktop: initial;
+    --nin-base__module_background-repeat_mobile: initial;
+    --nin-base__cta_margin: 0;
+    --nin-base__cta_padding: 0.888em 1em;
+    --nin-base__cta_corners: 5px;
+    --nin-base__cta_background-color: #e60012;
+    --nin-base__cta_background-color_hover: #CE181E;
+    --nin-base__cta_text-color: #ffffff;
+    --nin-base__cta_text-color_hover: #ffffff;
+    --nin-base__cta_border: 1px solid #e60012;
+    --nin-base__cta_border_hover: 1px solid #CE181E;
+    --nin-base__cta_secondary_margin: 0;
+    --nin-base__cta_secondary_padding: 0.888em 1em;
+    --nin-base__cta_secondary_corners: 5px;
+    --nin-base__cta_secondary_background-color: #ffffff;
+    --nin-base__cta_secondary_background-color_hover: #f8f8f8;
+    --nin-base__cta_secondary_text-color: #e60012;
+    --nin-base__cta_secondary_text-color_hover: #e60012;
+    --nin-base__cta_secondary_border: 1px solid #ffffff;
+    --nin-base__cta_secondary_border_hover: 1px solid #f8f8f8;
+    --nin-base__cta_disabled_margin: 0;
+    --nin-base__cta_disabled_padding: 0.888em 1em;
+    --nin-base__cta_disabled_corners: 5px;
+    --nin-base__cta_disabled_background-color: #dadada;
+    --nin-base__cta_disabled_text-color: #727272;
+    --nin-base__cta_disabled_border: 1px solid #dadada;
+    --nin-base__cta_link_margin: 0;
+    --nin-base__cta_link_padding: 0.375em 0;
+    --nin-base__cta_link_text-color: #e60012;
+    --nin-base__cta_link_text-color_hover: #CE181E;
+    --nin_base__cta_link_shadow_hover: 0 2px 0 0;
+    --nin-base__anchor-link_text-color: #e60012;
+    --nin-base__anchor-link_text-color_hover: #CE181E;
+    --nin-base__anchor-link_font-weight: 700;
+    --nin-base__anchor-link_text-decoration: none;
+    --nin-base__anchor-link_text-decoration_hover: underline;
+    --nin-base__anchor-link_secondary_text-color: #3946a0;
+    --nin-base__anchor-link_secondary_text-color_hover: #2a3477;
+    --nin-base__anchor-link_secondary_font-weight: 700;
+    --nin-base__anchor-link_secondary_text-decoration: none;
+    --nin-base__anchor-link_secondary_text-decoration_hover: underline;
+    --nin-base__sub_font-size: 0.8125rem;
+    --nin-base__sup_font-size: (12 / 16) * 1rem;
+    --nin-base__sup_transform: translateY(-0.5em);
+    --nin-base__upper-footer_background_desktop: linear-gradient(to top, #e7e7e7 0%,#f9f9f9 75%);
+    --nin-base__upper-footer_text-color: #484848;
+    --nin-base__upper-footer_text-color_hover: #242424;
+    --nin-base__upper-footer_text-decoration: none;
+    --nin-base__upper-footer_text-decoration_hover: underline;
+    --nin-base__upper-footer-link_font-family: museo-sans, sans-serif;
+    --nin-base__upper-footer-header_font-weight: 700;
+    --nin-base__upper-footer-link_font-weight: 300;
+    --nin-base__upper-footer-link_font-size_desktop: (12 / 16) * 1rem;
+    --nin-base__upper-footer-header_font-size_desktop: 1rem;
+    --nin-base__upper-footer-link_font-size_mobile: (12 / 16) * 1rem;
+    --nin-base__upper-footer-link_line-height_desktop: 1.3;
+    --nin-base__upper-footer-link_line-height_mobile: 1.38;
+    --nin-base__upper-footer_border-bottom_mobile: 1px solid #dadada;
+    --nin-base__upper-footer_border-top_mobile: 1px solid #dadada;
+    --nin-base__upper-footer_background_mobile: #ffffff;
+    --nin-base__upper-footer_category-color_mobile: #1660a0;
+    --nin-base__upper-footer_category-background_mobile: #fafafa;
+    --nin-base__upper-footer_category-font-weight_mobile: 700;
+    --nin-base__upper-footer_category-font-size_mobile: 1.375rem;
+    --nin-base__upper-footer_item-color_mobile: #484848;
+    --nin-base__upper-footer_item-color_mobile_hover: #0076dc;
+    --nin-base__upper-footer_item-font-weight_mobile: 300;
+    --nin-base__upper-footer_item-font-size_mobile: 1.125rem;
+    --nin-base__lower-footer_background: linear-gradient(to bottom, #3c3a3a 0%,#484848 50%);
+    --nin-base__lower-footer_font-size_desktop: 0.875rem;
+    --nin-base__lower-footer_font-size_mobile: 1rem;
+    --nin-base__lower-footer_text-color: #dadada;
+    --nin-base__lower-footer_text-decoration: none;
+    --nin-base__lower-footer_text-color_hover: #ffffff;
+    --nin-base__lower-footer_text-decoration_hover: none;
+    --nin-base__accent-panel_ui: #ffffff;
+    --nin-base__accent-panel_ui_hover: #dadada;
+    --nin-base__content-divider_color: #dadada;
+    --nin-base__loading-box_background: #dadada;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-right: 1em;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: inherit;
+}
+
+.logo-nintendo {
+    background-color: var(--button-red);
+    max-height: 100%;
+    width: 140px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20001;
+}
+
+.button-logo-nintendo {
+    fill: #fff;
+    max-width: 120px;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.search-flex {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1em;
+    height: 100%;
+}
+
+@media (max-width: 980px){
+    .top-nav-container .search-flex .btn-search-nintendo {
+        border-bottom: 1px solid transparent;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;    
+}
+
+h2, .h2 {
+    margin: 0em;
+}
+
+.margin-0 {
+    margin: 0.5em 0;
+    color: var(--text-gray);
+}
+
+.div-space1 {
+    width: 15px;
+}
+
+.div-space2 {
+    width: 30px;
+}
+
+.btn-background {
+    background-color: var(--button-red);
+    border: var(--button-secondary-border, 1px solid #e60012);
+    color: var(--white);
+    display: block;
+    /* width: calc(100% - 2px);
+    height: calc(100% - 2px); */
+    width: 240px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    border-radius: var(--button-border-radius);
+    transform-origin: 50% 50%;    
+    cursor: var(--cursor, pointer);
+    font-size: var(--font-size, 1.5em);
+    font-family: inherit;
+    font-weight: var(--font-weight, 500);
+    line-height: var(--line-height, 1);
+    justify-content: var(--justify-alignment, space-between);
+    min-width: var(--button-min-width, 0);
+}
+
+.btn-background:hover{
+    background-color: var(--button-red-hover);    
+    transition: opacity 200ms ease-in-out 0s;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.img-esrb {
+    min-height: var(--descriptors-min-height, 5.625em);
+    height: var(--descriptors-height, 5.625em);
+    width: auto;
+}
+
+.descriptors {
+    padding: 0.75em;
+    display: var(--descriptors-display, flex);
+    font-size: var(--descriptors-font-size, 100%);
+    max-width: var(--descriptors-max-width, 11em);
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+
+.flex.justify-content-center {
+    justify-content: center;
+}
+
+.flex.align-items-center {
+    align-items: center;
+}
+
+.wrapper, .constrained {
+    max-width: 1180px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-y-1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+hr {
+    width: 100%;
+    margin: var(--nin-deluxe-divider__margin, 1em 0);
+    position: relative;
+    z-index: var(--nin-deluxe-divider__z-index, 5);
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.small-bar {
+    border-top: var(--nin-deluxe-divider__height, 2.5px) solid var(--nin-deluxe-divider__color, #484848);
+}
+
+.bar-gray {
+    height: 1px;
+    margin: 2.5rem 0;
+    border-collapse: -1px;
+}
+
+footer {
+    color: var(--white);
+    background-color: var(--footer);
+}
