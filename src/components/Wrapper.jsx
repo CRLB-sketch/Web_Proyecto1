@@ -1,5 +1,6 @@
 import React from 'react';
 
+// import NintendoLogo from '../img/apple-touch-icon.jpg'
 import NintendoLogo from '../img/2560px-Nintendo.jpg'
 
 const Wrapper = () => {

@@ -8,6 +8,7 @@
     --nin-theme-song__global_font-color: #484848;
     --for-bar-gray: #ffffff;
     --footer: #454444;
+    --circle_red: #d80010;
 }
 
 html {
@@ -291,7 +292,8 @@ h2, .h2 {
     display: block;
     /* width: calc(100% - 2px);
     height: calc(100% - 2px); */
-    width: 240px;
+    /* height: calc(100% - 2px); */
+    /* width: 240px; */
     height: 60px;
     top: 0px;
     left: 0px;
@@ -374,6 +376,80 @@ hr {
     height: 1px;
     margin: 2.5rem 0;
     border-collapse: -1px;
+}
+
+.complete-list {
+    background-color: var(--white);
+    border: none;
+    color: var(--button-red);
+    font-size: var(--font-size, 1em);
+    font-weight: var(--font-weight, 700);    
+    width: var(--button-width, var(--styled-button-width, auto));
+    height: var(--button-height, var(--styled-button-height, auto));
+    transition: all 200ms ease-in-out 0s;
+}
+
+.complete-list:hover {
+    color: var(--button-red-hover);
+    cursor: pointer;
+    line-height: var(--line-height, 1);
+}
+
+.store {
+    background-color: var(--button-red);
+    font-family: var(--page-font);
+    font-size: var(--font-size, 1rem);
+    background-image: var(--background-image-tile);
+    border-radius: var(--borderCurve);
+    border: var(--border-shorthand, none);
+    display: flex;
+    align-items: center;
+    flex-direction: var(--container-flex-direction, row);
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1em 0px;
+    padding: var(--container-padding, 0 1em);
+}
+
+.store-title {
+    color: var(--white);
+}
+
+.store-button {
+    background-color: #ac000d;
+    color: var(--white);
+    font-size: var(--font-size, 1rem);
+    width: 100%;    
+}
+
+.news-article-tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-gap: 2em;
+    justify-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.notice-img {
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    /* ------------------------------ */
+    /* ---- TOCARA TENER CUIDADO ---- */
+    height: 500px;
+    width: 900px;
+    /* ------------------------------ */
+    object-fit: var(--image-fit, cover);
+    object-position: center center;
+    border-radius: 0.375em;
+    border: 1px solid rgb(218, 218, 218);
+    transition: filter 200ms ease-in-out 0s, transform 300ms cubic-bezier(0.095, 1.65, 0.775, 0.855) 0s, opacity 200ms linear 0s;
+    filter: var(--image-focus-filter, none);
 }
 
 footer {

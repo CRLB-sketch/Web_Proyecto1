@@ -1,0 +1,22 @@
+.avaliable-games {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.slick-prev::before{
+    color: rgb(20, 20, 20);
+}
+
+.slick-next::before{
+    color: rgb(20, 20, 20);
+}
+
+.game {
+    overflow: hidden;
+}
+
+.game > img {    
+    height: 100%;
+    object-fit: cover;
+}

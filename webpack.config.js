@@ -17,7 +17,7 @@ export default {
         rules: [
             { test: [/\.jsx?$/], use: ['babel-loader'] },
             { test: /\.css$/, use: ["style-loader", "css-loader"] },
-            { test: /\.(png|jpg|gif|avif)$/, loader: 'url-loader' },
+            { test: /\.(png|jpg|gif|avif|jfif)$/, loader: 'url-loader' },
             { test: [/\.(svg|mp3)$/], use: ['file-loader']},
         ]
     }

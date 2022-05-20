@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // -> Importar componentes
 import Wrapper from './Wrapper.jsx';
 import GamesAvaliable from './GamesAvaliable.jsx';
 import GamesNew from './GamesNew.jsx';
+import Notices from './Notices.jsx'
 
 // -> Imagenes principales
 import NSports from '../img/SportsBackground.avif'
@@ -46,15 +47,14 @@ const App = ({}) => {
 
             <div className='store'>
                 <img src={GameStore} alt='Store-Games'></img>
-                <h1>Tienda de juegos:</h1>
-                <h1>¡Compra, descarga y</h1>
-                <h1>juega de inmediate!</h1>
-                <button>Comprar juegos {simbol1}</button>
+                <h1 className='store-title'>Tienda de juegos: ¡Compra, descarga y juega de inmediato!</h1>
+                <button className='store-button'>Comprar juegos {simbol1}</button>
             </div>
 
             <hr className='bar-gray'></hr>
 
             <div className='consoles'>
+                <h1>Explora las consolas de videojuegos</h1>
                 <img className='img-responsive' src={Consoles} alt='Nintendo-Switch-Consoles'></img>
                 <h1>Familia Nintendo Switch</h1>
                 <button className='btn-background'>Más detalles {simbol1}</button>
@@ -62,16 +62,13 @@ const App = ({}) => {
 
             <hr className='bar-gray'></hr>
 
-            <div className='news'>
-                <h1>Novedades</h1>                
-                <button className='btn-background'>Ver todas las noticias {simbol1}</button>
-            </div>
+            <Notices/>
 
             <hr className='bar-gray'></hr>
 
             <div className='new-games'>
                 <h1>Nuevos lanzamientos de Nintendo Switch</h1>
-                <button>Ver la lista completa {simbol1}</button>
+                <button className='complete-list'>Ver la lista completa {simbol1}</button>
                 <br/>
                 <GamesNew/>
             </div>
