@@ -9,23 +9,23 @@ import ImgDefHero07 from '../../img/games_def/hero07.avif'
 import ImgDefHero08 from '../../img/games_def/hero08.avif'
 import ImgDefHero09 from '../../img/games_def/hero09.avif'
 import ImgDefHero10 from '../../img/games_def/hero10.avif'
-import ImgDefHero11 from '../../img/games_def/hero11.avif'  
+import ImgDefHero11 from '../../img/games_def/hero11.avif'
 import ImgDefHero13 from '../../img/games_def/hero13.avif'
 
 const GamesDef = [
-    { title : 'Nintendo Switch', img : ImgDefHero00, state : 'Resérvalo ya'},
-    { title : 'Nintendo Switch', img : ImgDefHero01, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero02, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero03, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero04, state : 'Más información'},
-    { title : 'Nintendo Switch', img : ImgDefHero05, state : 'Resérvalo ya'},
-    { title : 'Nintendo Switch', img : ImgDefHero06, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero07, state : 'Resérvalo ya'},
-    { title : 'Nintendo Switch', img : ImgDefHero08, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero09, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero10, state : 'Resérvalo ya'},
-    { title : 'Nintendo Switch', img : ImgDefHero11, state : 'Ya disponible'},
-    { title : 'Nintendo Switch', img : ImgDefHero13, state : 'Ya disponible'},
+    { title: 'Nintendo Switch', img: ImgDefHero00, state: 'Resérvalo ya' },
+    { title: 'Nintendo Switch', img: ImgDefHero01, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero02, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero03, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero04, state: 'Más información' },
+    { title: 'Nintendo Switch', img: ImgDefHero05, state: 'Resérvalo ya' },
+    { title: 'Nintendo Switch', img: ImgDefHero06, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero07, state: 'Resérvalo ya' },
+    { title: 'Nintendo Switch', img: ImgDefHero08, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero09, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero10, state: 'Resérvalo ya' },
+    { title: 'Nintendo Switch', img: ImgDefHero11, state: 'Ya disponible' },
+    { title: 'Nintendo Switch', img: ImgDefHero13, state: 'Ya disponible' },
 ]
 
 export default GamesDef
