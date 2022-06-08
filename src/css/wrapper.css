@@ -6,11 +6,7 @@
   background-color: white;
 
   display: block;
-  /* margin-block-start: 1em; */
   margin-block-end: -1.7em;
-  /* margin-inline-start: 50px; */
-  /* margin-inline-end: 40px; */
-  /* padding-inline-start: 40px; */
 }
 
 .li-horizontal {
@@ -46,12 +42,10 @@
 }
 
 .wrapper-right {
-  /* margin: 1rem; */
   float: right;
 }
 
 .div-btn-logo-nintendo {
-  /* height: 45px; */
   width: 150px;
   background-color: pink;
 }
@@ -76,17 +70,6 @@
   font-size: 1em;
   transition: 0.3s;
   font-family: 'museo-sans', 'Lato', sans-serif !important;
-
-  /* letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none; */
-  /* 
-  
-  font-weight: 400;
-  box-sizing: border-box; */
 }
 
 .search-icon {
@@ -97,8 +80,6 @@
 .button-logo-nintendo {
   fill: #fff;
   height: 40px;
-  /* max-width: 120px; */
-  /* max-height: 100%; */
   cursor: pointer;
   float: left;
 }

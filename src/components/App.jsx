@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Sistemas y Tecnologías Web - Sección 10
+ *
+ * Proyecto 1 - Página Web [Copia 'identica']
+ *
+ * ! App : App principal para la aplicación de React.
+ *
+ * @author   Cristian Fernando Laynez Bachez - 201281
+ * @date     26-Abril-2022
+ */
+
 import React from 'react'
 
 // -> Importar componentes
@@ -44,65 +56,94 @@ const App = ({}) => {
           <img className="img-esrb" src={Esrb_plus_10} alt="ESRB +10"></img>
           <div className="descriptors">
             <span>Violencia moderada</span>
-            <hr className="small-bar"></hr>
+            <hr className="first-hr"></hr>
             <span>Compras dentro del juego, Interacción de usuarios</span>
           </div>
         </div>
       </div>
 
-      <hr className="bar-gray"></hr>
+      <hr className="small-bar"></hr>
 
       <GamesAvaliable />
 
-      <hr className="bar-gray"></hr>
+      <br />
+      <br />
+      <br />
+      <hr className="small-bar"></hr>
+      <br />
 
-      <div className="store">
-        <img src={GameStore} alt="Store-Games"></img>
-        <h1 className="store-title">
-          Tienda de juegos: ¡Compra, descarga y juega de inmediato!
-        </h1>
-        <button className="store-button">
-          <span>Comprar juegos {simbol1}</span>
-        </button>
-      </div>
-
-      <hr className="bar-gray"></hr>
-
-      <div className="consoles">
-        <h1>Explora las consolas de videojuegos</h1>
-        <img
-          className="img-responsive"
-          src={Consoles}
-          alt="Nintendo-Switch-Consoles"
-        ></img>
-        <div className="wrapper-titles">
-          <h1 className="wrapper-titles-left">Familia Nintendo Switch</h1>
-          <button className="btn-background wrapper-titles-right">
-            <span className="btn-background-text">Más detalles {simbol1}</span>
+      <div className="flex-parent jc-center">
+        <div className="store">
+          <img src={GameStore} alt="Store-Games"></img>
+          <h1 className="store-title">
+            Tienda de juegos: ¡Compra, descarga y juega de inmediato!
+          </h1>
+          <button className="store-button">
+            <span>Comprar juegos {simbol1}</span>
           </button>
         </div>
       </div>
 
-      <hr className="bar-gray"></hr>
+      <br />
+      <hr className="small-bar"></hr>
+      <br />
+
+      <div className="flex-parent jc-center">
+        <div className="consoles">
+          <h1>Explora las consolas de videojuegos</h1>
+          <img
+            className="img-responsive"
+            src={Consoles}
+            alt="Nintendo-Switch-Consoles"
+          ></img>
+          <div className="wrapper-titles">
+            <h1 className="wrapper-titles-left">Familia Nintendo Switch</h1>
+            <button className="btn-background wrapper-titles-right">
+              <span className="btn-background-text">
+                Más detalles {simbol1}
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <hr className="small-bar"></hr>
+      <br />
 
       <Notices />
 
-      <hr className="bar-gray"></hr>
+      <br />
+      <hr className="small-bar"></hr>
+      <br />
 
       <div className="new-games">
-        <div className="wrapper-titles">
-          <div className="wrapper-titles-left">
-            <h1>Nuevos lanzamientos de Nintendo Switch</h1>
+        <div className="consoles">
+          <div className="wrapper-titles">
+            <div className="wrapper-titles-left">
+              <div className="empty-div"></div>
+            </div>
+            <div className="wrapper-titles-left">
+              <h1>Nuevos lanzamientos de Nintendo Switch</h1>
+            </div>
+            <button className="complete-list">
+              <span className="more-space">
+                Ver la lista completa {simbol1}
+              </span>
+            </button>
           </div>
-          <button className="complete-list">
-            <span className="more-space">Ver la lista completa {simbol1}</span>
-          </button>
         </div>
         <br />
         <GamesNew />
       </div>
 
-      <hr className="bar-gray"></hr>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr className="small-bar"></hr>
+      <br />
 
       <div className="grid-layout">
         <div className="grid">

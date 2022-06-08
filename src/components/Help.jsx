@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Sistemas y Tecnologías Web - Sección 10
+ *
+ * Proyecto 1 - Página Web [Copia 'identica']
+ *
+ * ! Help : Penultima sección donde se miran varias politicas
+ *
+ * @author   Cristian Fernando Laynez Bachez - 201281
+ * @date     26-Abril-2022
+ */
+
 import React from 'react'
 
 import '../css/help.css'

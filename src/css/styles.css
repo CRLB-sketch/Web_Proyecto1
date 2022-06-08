@@ -110,11 +110,6 @@ h2,
   border: var(--button-secondary-border, 1px solid #e60012);
   color: var(--white);
   display: block;
-  /* margin: 2.5rem; */
-  /* width: calc(100% - 2px);
-    height: calc(100% - 2px); */
-  /* height: calc(100% - 2px); */
-  /* width: 240px; */
   height: 60px;
   top: 0px;
   left: 0px;
@@ -180,7 +175,7 @@ h2,
   display: flex;
 }
 
-hr {
+.first-hr {
   width: 100%;
   margin: var(--nin-deluxe-divider__margin, 1em 0);
   position: relative;
@@ -191,8 +186,10 @@ hr {
 }
 
 .small-bar {
-  border-top: var(--nin-deluxe-divider__height, 2.5px) solid
-    var(--nin-deluxe-divider__color, #484848);
+  height: 1px;
+  width: 60%;
+  border-width: 0;
+  background-color: #dbdbdb;
 }
 
 .normal-bar {
@@ -203,7 +200,7 @@ hr {
 .bar-gray {
   height: 1px;
   margin: 2.5rem 0;
-  border-collapse: -1px;
+  right: 50px;
 }
 
 .complete-list {
@@ -236,7 +233,7 @@ hr {
   align-items: center;
   flex-direction: var(--container-flex-direction, row);
   justify-content: flex-start;
-  width: 100%;
+  max-width: 70%;
   box-sizing: border-box;
   margin: 1em 0px;
   padding: var(--container-padding, 0 1em);
@@ -261,6 +258,10 @@ hr {
   cursor: pointer;
 }
 
+.consoles {
+  max-width: 70%;
+}
+
 .wrapper-titles {
   overflow: hidden;
 }
@@ -276,7 +277,8 @@ hr {
 
 .news-article-tiles {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-gap: 2em;
   justify-items: center;
 }
@@ -287,8 +289,9 @@ hr {
   left: 0px;
   /* ------------------------------ */
   /* ---- TOCARA TENER CUIDADO ---- */
-  height: 500px;
-  width: 900px;
+  height: 400px;
+  /* width: 50%; */
+  width: 600px;
   /* ------------------------------ */
   object-fit: var(--image-fit, cover);
   object-position: center center;
@@ -315,4 +318,10 @@ hr {
   padding-bottom: 2em;
   column-gap: 1em;
   grid-template-columns: 1fr 1fr;
+}
+
+.empty-div {
+  /* background-color: #ac000d; */
+  width: 23rem;
+  height: 50px;
 }

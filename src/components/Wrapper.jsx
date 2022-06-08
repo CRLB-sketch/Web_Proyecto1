@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Sistemas y Tecnologías Web - Sección 10
+ *
+ * Proyecto 1 - Página Web [Copia 'identica']
+ *
+ * ! Wrapper : Navvar principal de la página
+ *
+ * @author   Cristian Fernando Laynez Bachez - 201281
+ * @date     26-Abril-2022
+ */
+
 import React from 'react'
 
 import NintendoLogo from '../img/2560px-Nintendo.jpg'
@@ -57,7 +69,7 @@ const Wrapper = () => {
           </a>
         </li>
       </ul>
-      <hr className="normal-bar"></hr>
+      <hr className="first-hr"></hr>
       <nav className="bottomNav">
         <ul className="wrapper nav-list">
           <div>
