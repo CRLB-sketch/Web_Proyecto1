@@ -14,101 +14,50 @@ import '../css/wrapper.css'
 const Wrapper = () => {
   return (
     <>
-      <div className="wrapper">
-        <div>
-          <img
-            className="button-logo-nintendo"
-            src={NintendoLogo}
-            alt="Nintendo-Logo"
-          ></img>
-        </div>
-        <div>
-          <div className="btn-search-text">
-            <img className="search-icon" src={Search}></img>
-            <span className="search-text">
-              Busca juegos, consolas, soporte, etc.
-            </span>
-          </div>
-        </div>
-        <div>
-          <img
-            className="button-logo-nintendo"
-            src={NintendoLogo}
-            alt="Nintendo-Logo"
-          ></img>
-        </div>
-        {/* <div>
-          <div className="option">
-            <img className="img-of-wrapper size-1" src={ClientService}></img>
-          </div>
-        </div> */}
-
-        {/* <div className="option">
-            <img className="img-of-wrapper size-1" src={WishList}></img>
-          </div>
-          <div className="option">
-            <img className="img-of-wrapper size-2" src={StartSesion}></img>
-          </div> */}
-      </div>
-      {/* <nav className="wrapper">
-        <div className="div-btn-logo-nintendo">
-          <div className="space-logo"></div>
-          <img
-            className="button-logo-nintendo"
-            src={NintendoLogo}
-            alt="Nintendo-Logo"
-          ></img>
-        </div>
-        <button
-          // className="btn-search-nintendo"
-          aria-controls="nclood-nav-search-container"
-        >
-          <img className="search-icon" src={Search}></img>
-          <span>Busca juegos, consolas, soporte, etc.</span>
-        </button>
-        <div className="wrapper-left"></div>
-        <ul className="wrapper-right">
-          <div className="option">
-            <img className="img-of-wrapper size-1" src={ClientService}></img>
-          </div>
-          <div className="option">
-            <img className="img-of-wrapper size-1" src={WishList}></img>
-          </div>
-          <div className="option">
-            <img className="img-of-wrapper size-2" src={StartSesion}></img>
-          </div>
-        </ul>
-      </nav> */}
-      {/* <div className="wrapper">
-        <a className="logo-nintendo">
-          <img
-            className="button-logo-nintendo"
-            src={NintendoLogo}
-            alt="Nintendo-Logo"
-          ></img>
-        </a>
-        <div className="search-flex">
-          <button
-            className="btn-search-nintendo"
-            aria-controls="nclood-nav-search-container"
-          >
-            <img className="search-icon" src={Search}></img>
-            <span>Busca juegos, consolas, soporte, etc.</span>
-          </button>
-        </div>
-        <div>
-          <img className="img-of-wrapper size-1" src={ClientService}></img>
-        </div>
-        <div>
-          <img className="img-of-wrapper size-1" src={WishList}></img>
-        </div>
-        <div>
-          <img className="img-of-wrapper size-2" src={StartSesion}></img>
-        </div>
-      </div> */}
-
+      <ul className="horizontal">
+        <li className="li-horizontal">
+          <a>
+            <img
+              className="button-logo-nintendo"
+              src={NintendoLogo}
+              alt="Nintendo-Logo"
+            ></img>
+          </a>
+        </li>
+        <li className="li-horizontal">
+          <a>
+            {' '}
+            <div className="btn-search-text">
+              <img className="search-icon" src={Search}></img>
+              <span className="search-text">
+                Busca juegos, consolas, soporte, etc.
+              </span>
+            </div>
+          </a>
+        </li>
+        <li className="rightli">
+          <a>
+            <div className="option">
+              <img className="img-of-wrapper size-2" src={StartSesion}></img>
+            </div>
+          </a>
+        </li>
+        <li className="rightli">
+          <a>
+            <div className="option">
+              <img className="img-of-wrapper size-1" src={WishList}></img>
+            </div>
+          </a>
+        </li>
+        <li className="rightli">
+          <a>
+            <div className="option">
+              <img className="img-of-wrapper size-1" src={ClientService}></img>
+            </div>
+          </a>
+        </li>
+      </ul>
       <hr className="normal-bar"></hr>
-
       <nav className="bottomNav">
         <ul className="wrapper nav-list">
           <div>

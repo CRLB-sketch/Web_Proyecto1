@@ -35,17 +35,6 @@ html {
   box-sizing: border-box;
 }
 
-.nav-list {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  max-height: 100%;
-  margin: 0 auto;
-  z-index: 0;
-  overflow: hidden;
-  transform-origin: center bottom;
-}
-
 .img-esrb {
   min-height: var(--descriptors-min-height, 5.625em);
   height: var(--descriptors-height, 5.625em);
