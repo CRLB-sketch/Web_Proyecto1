@@ -14,7 +14,43 @@ import '../css/wrapper.css'
 const Wrapper = () => {
   return (
     <>
-      <nav className="wrapper">
+      <div className="wrapper">
+        <div>
+          <img
+            className="button-logo-nintendo"
+            src={NintendoLogo}
+            alt="Nintendo-Logo"
+          ></img>
+        </div>
+        <div>
+          <div className="btn-search-text">
+            <img className="search-icon" src={Search}></img>
+            <span className="search-text">
+              Busca juegos, consolas, soporte, etc.
+            </span>
+          </div>
+        </div>
+        <div>
+          <img
+            className="button-logo-nintendo"
+            src={NintendoLogo}
+            alt="Nintendo-Logo"
+          ></img>
+        </div>
+        {/* <div>
+          <div className="option">
+            <img className="img-of-wrapper size-1" src={ClientService}></img>
+          </div>
+        </div> */}
+
+        {/* <div className="option">
+            <img className="img-of-wrapper size-1" src={WishList}></img>
+          </div>
+          <div className="option">
+            <img className="img-of-wrapper size-2" src={StartSesion}></img>
+          </div> */}
+      </div>
+      {/* <nav className="wrapper">
         <div className="div-btn-logo-nintendo">
           <div className="space-logo"></div>
           <img
@@ -42,7 +78,7 @@ const Wrapper = () => {
             <img className="img-of-wrapper size-2" src={StartSesion}></img>
           </div>
         </ul>
-      </nav>
+      </nav> */}
       {/* <div className="wrapper">
         <a className="logo-nintendo">
           <img
