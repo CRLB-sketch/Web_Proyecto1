@@ -9,55 +9,85 @@ import Games from '../img/wrapper/btn_juegos.png'
 import Team from '../img/wrapper/btn_equipo.png'
 import EventsAndNews from '../img/wrapper/btn_noticias_y_eventos.png'
 
+import '../css/wrapper.css'
+
 const Wrapper = () => {
-    return (
-        <>
-            <div className="wrapper">
-                <a className="logo-nintendo">
-                    <img
-                        className="button-logo-nintendo"
-                        src={NintendoLogo}
-                        alt="Nintendo-Logo"
-                    ></img>
-                </a>
-                <div className="search-flex">
-                    <img className="search-icon" src={Search}></img>
-                    <p>Busca juegos, consolas, soporte, etc.</p>
-                </div>
-                <div>
-                    <img
-                        className="img-of-wrapper size-1"
-                        src={ClientService}
-                    ></img>
-                </div>
-                <div>
-                    <img className="img-of-wrapper size-1" src={WishList}></img>
-                </div>
-                <div>
-                    <img
-                        className="img-of-wrapper size-2"
-                        src={StartSesion}
-                    ></img>
-                </div>
-            </div>
+  return (
+    <>
+      <nav className="wrapper">
+        <div className="div-btn-logo-nintendo">
+          <div className="space-logo"></div>
+          <img
+            className="button-logo-nintendo"
+            src={NintendoLogo}
+            alt="Nintendo-Logo"
+          ></img>
+        </div>
+        <button
+          // className="btn-search-nintendo"
+          aria-controls="nclood-nav-search-container"
+        >
+          <img className="search-icon" src={Search}></img>
+          <span>Busca juegos, consolas, soporte, etc.</span>
+        </button>
+        <div className="wrapper-left"></div>
+        <ul className="wrapper-right">
+          <div className="option">
+            <img className="img-of-wrapper size-1" src={ClientService}></img>
+          </div>
+          <div className="option">
+            <img className="img-of-wrapper size-1" src={WishList}></img>
+          </div>
+          <div className="option">
+            <img className="img-of-wrapper size-2" src={StartSesion}></img>
+          </div>
+        </ul>
+      </nav>
+      {/* <div className="wrapper">
+        <a className="logo-nintendo">
+          <img
+            className="button-logo-nintendo"
+            src={NintendoLogo}
+            alt="Nintendo-Logo"
+          ></img>
+        </a>
+        <div className="search-flex">
+          <button
+            className="btn-search-nintendo"
+            aria-controls="nclood-nav-search-container"
+          >
+            <img className="search-icon" src={Search}></img>
+            <span>Busca juegos, consolas, soporte, etc.</span>
+          </button>
+        </div>
+        <div>
+          <img className="img-of-wrapper size-1" src={ClientService}></img>
+        </div>
+        <div>
+          <img className="img-of-wrapper size-1" src={WishList}></img>
+        </div>
+        <div>
+          <img className="img-of-wrapper size-2" src={StartSesion}></img>
+        </div>
+      </div> */}
 
-            <hr className="normal-bar"></hr>
+      <hr className="normal-bar"></hr>
 
-            <nav className="bottomNav">
-                <ul className="wrapper nav-list">
-                    <div>
-                        <img className="size-3" src={Games}></img>
-                    </div>
-                    <div>
-                        <img className="size-3" src={Team}></img>
-                    </div>
-                    <div>
-                        <img className="size-2" src={EventsAndNews}></img>
-                    </div>
-                </ul>
-            </nav>
-        </>
-    )
+      <nav className="bottomNav">
+        <ul className="wrapper nav-list">
+          <div>
+            <img className="size-3" src={Games}></img>
+          </div>
+          <div>
+            <img className="size-3" src={Team}></img>
+          </div>
+          <div>
+            <img className="size-4" src={EventsAndNews}></img>
+          </div>
+        </ul>
+      </nav>
+    </>
+  )
 }
 
 export default Wrapper

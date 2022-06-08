@@ -1,0 +1,31 @@
+.help-div {
+  box-sizing: border-box;
+  display: block;
+}
+
+.modular-navigation {
+  background: linear-gradient(to top, #e7e7e7 0, #f9f9f9 75%);
+}
+
+.grid-navigation-help {
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 2em;
+  column-gap: 1em;
+  display: grid;
+  max-width: 1180px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  column-gap: 1em;
+}
+
+.navigation-list {
+  box-sizing: border-box;
+}
+
+.grid-spacer {
+  width: 0px;
+  height: 0px;
+}

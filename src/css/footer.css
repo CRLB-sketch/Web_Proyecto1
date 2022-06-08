@@ -1,0 +1,36 @@
+.help-div {
+    background-color: var(--gray-white);
+    box-sizing: border-box;
+    display: block;
+}
+
+footer {
+    color: var(--white);
+    background-color: var(--footer);
+}
+
+.social-img {
+    width: 340px;
+    margin: 1.5em;
+}
+
+.esrb-pc {
+    width: 90px;
+}
+
+.footer-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.copyright {
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    color: var(--nin-base__cta_disabled_background-color);
+    line-height: 1.38;
+}
