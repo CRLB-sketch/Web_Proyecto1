@@ -20,7 +20,7 @@ Resultado (Soporta resolución Full HD):
 
 ## Screenshots
 
-![App Screenshot]<img src="/show.jpg" alt="Show"/>
+<img src="/show.jpg" alt="Show"/>
 
 ## Authors
 

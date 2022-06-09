@@ -56,10 +56,10 @@ const GamesNew = () => {
   }
 
   return (
-    <div className="avaliable-games">
+    <div className='avaliable-games'>
       <Slider {...settings}>
         {GamesRecent.map((game) => (
-          <div className="new-game">
+          <div key={game.title} className='new-game'>
             <img src={game.img} alt={game.title}></img>
             <p>{game.launch_date}</p>
             <h2>{game.title}</h2>

@@ -56,10 +56,10 @@ const GamesAvaliable = () => {
   }
 
   return (
-    <div className="avaliable-games">
+    <div className='avaliable-games'>
       <Slider {...settings}>
         {GamesDef.map((game) => (
-          <div className="game">
+          <div key={game.title} className='game'>
             <img src={game.img} alt={game.title}></img>
             <h2>{game.state}</h2>
             <p>{game.title}</p>
