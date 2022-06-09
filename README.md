@@ -16,7 +16,7 @@ Página a clonar: https://www.nintendo.com/es_LA/
 
 ## Demo
 
-Resultado (Soporta resolución Full HD):
+Resultado (Soporta resolución Full HD): http://juanelcaballo.club/201281/nintendo/dist/index.html
 
 ## Screenshots
 
